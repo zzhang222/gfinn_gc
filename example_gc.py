@@ -100,7 +100,7 @@ def main(args):
         
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generic Neural Networks')
-    parser.add_argument('--net', default='gfinn2b', type=str, help='ESP or ESP2 or ESP3')
+    parser.add_argument('--net', default='gfinn2b', type=str, help='gfinn2a or gfinn2b or gnode2a or gnode2b')
     parser.add_argument('--seed', default=3, type=int, help='random seed')
     parser.add_argument('--lam', default=0, type=float, help='lambda as the weight for consistency penalty')
     args = parser.parse_args()
